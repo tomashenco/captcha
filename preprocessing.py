@@ -2,7 +2,6 @@ __author__ = 'Tomasz'
 import os
 import numpy as np
 
-
 # Get input file paths
 input_path = os.getcwd() + '\input'
 input_files = [f for f in os.listdir(input_path) if 'txt' in f]
